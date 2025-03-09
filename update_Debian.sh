@@ -26,5 +26,18 @@ while true; do
 	esac
 done
 
+while true; do
+	read -p "Do you wish to run the dist-upgrade command? " yn
+	case $yn in
+		[Yy]* ) sudo apt dist-upgrade; echo "Thanks for updating me."; break;;
+		[Nn]* ) break;;
+		* ) echo "Please answer yes or no.";;
+	esac
+done
+
 echo "Uneccessary packages will now be removed.";
-sudo apt autoremove
+sudo apt autoremove	
+
+echo "Your system is now up to date. Goodbye."
+exit 0
+# End of script
