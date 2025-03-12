@@ -1,4 +1,4 @@
-# Linux-update-script
+# Debian-update-script
 > Easily update programs and operating system of Debain based operating systems. 
 
 ## Supported Operating Systems
@@ -34,7 +34,7 @@ Any Debian based distro.
 4. Change directories to your private bin if you're not there already:
     ```cd ~/bin```
     Clone my script from the repository:
-    ```git clone https://github.com/sampablo22/Linux-update-script.git```
+    ```git clone https://github.com/sampablo22/Debian-update-script.git```
     
 5.  Mark the file as executable:
     ```chmod +x update_Debian.sh```
@@ -52,5 +52,5 @@ If there are any problems please let me know by [raising an issue] on GitHub and
 ## License
 This script is free and may be redistributed and modified under the terms specified in the [license].
 
-[license]: https://github.com/sampablo22/Linux-update-script/blob/master/LICENSE
-[raising an issue]: https://github.com/sampablo22/Linux-update-script/issues/new
+[license]: https://github.com/sampablo22/Debian-update-script/blob/master/LICENSE
+[raising an issue]: https://github.com/sampablo22/Debian-update-script/issues
