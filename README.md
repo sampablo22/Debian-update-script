@@ -41,7 +41,7 @@ Any Debian based distro.
     
 6. Make a symlink from the script to the bin folder:
 
-    ```ln -s ~/bin/Linux-update-script/update_Debian.sh ~/bin```
+    ```ln -s ~/bin/Arch-update-script/update_Debian.sh ~/bin```
 
 7. Now you can run the script from anywhere with:
     ```./update_Debian.sh```
